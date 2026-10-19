@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "text": "I was charged twice for my subscription this month. Can you refund the duplicate charge?",
+    "label": "Billing"
+  },
+  {
+    "id": 2,
+    "text": "The app crashes every single time I try to upload a photo. Nothing happens, it just closes.",
+    "label": "Technical"
+  },
+  {
+    "id": 3,
+    "text": "I can't log in. It keeps saying my password is wrong but I know it's correct.",
+    "label": "Account/Login"
+  },
+  {
+    "id": 4,
+    "text": "It would be amazing if you added a dark mode. The white screen kills my eyes at night.",
+    "label": "Feature Request"
+  },
+  {
+    "id": 5,
+    "text": "What are your customer support hours? I want to know when someone is available to chat.",
+    "label": "General Question"
+  },
+  {
+    "id": 6,
+    "text": "I got locked out of my account this morning AND you still charged my card while I couldn't even use it. Fix this.",
+    "label": "Account/Login",
+    "note": "Ambiguous (billing + access). Tie-breaker: the core blocker is access, so Account/Login wins over Billing."
+  },
+  {
+    "id": 7,
+    "text": "it's broken. fix it.",
+    "label": "Technical",
+    "note": "Vague, no detail. Default a generic 'not working' complaint to Technical."
+  },
+  {
+    "id": 8,
+    "text": "I have been a loyal customer for FIVE YEARS and this is how you treat people?? Absolutely disgraceful service, I'm telling everyone I know to avoid you. The reset password link you keep telling me to use has NEVER once worked for me.",
+    "label": "Account/Login",
+    "note": "Angry rant with the real issue buried at the end: password reset link fails."
+  },
+  {
+    "id": 9,
+    "text": "I want a refund because your product still doesn't have a CSV export option, which I was promised.",
+    "label": "Feature Request",
+    "note": "Misleading keyword ('refund'). The actual unmet need is a missing feature; the refund is leverage. Committing to Feature Request."
+  },
+  {
+    "id": 10,
+    "text": "I cancelled my plan last week but you charged me again today. Why?",
+    "label": "Billing"
+  },
+  {
+    "id": 11,
+    "text": "Where is my data physically stored, and are you GDPR compliant?",
+    "label": "General Question"
+  },
+  {
+    "id": 12,
+    "text": "Do you have any plans to add a Slack integration? That would fit our workflow perfectly.",
+    "label": "Feature Request"
+  },
+  {
+    "id": 13,
+    "text": "Do you offer a student discount, and if so how do I apply for it?",
+    "label": "General Question"
+  },
+  {
+    "id": 14,
+    "text": "My invoice says $49 but my plan is supposed to be $29. The amount is wrong.",
+    "label": "Billing"
+  },
+  {
+    "id": 15,
+    "text": "Your billing page won't load for me. It just spins forever and never shows anything.",
+    "label": "Technical",
+    "note": "Boundary case: mentions 'billing' but the core problem is a page that won't load, i.e. Technical, not Billing."
+  }
+]
